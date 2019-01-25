@@ -1,0 +1,11 @@
+framework module LsqExtension {
+  umbrella header "LsqExtension.h"
+
+  export *
+  module * { export * }
+}
+
+module LsqExtension.Swift {
+    header "LsqExtension-Swift.h"
+    requires objc
+}
